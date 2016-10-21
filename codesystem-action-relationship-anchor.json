@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "action-relationship-anchor",
+  "meta": {
+    "lastUpdated": "2016-10-21T22:27:16.566+00:00"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PlanActionRelationshipAnchor</h2><div><p>Defines possible anchors for the relationship between actions</p>\n</div><p>This code system http://hl7.org/fhir/action-relationship-anchor defines the following codes:</p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>start<a name=\"action-relationship-anchor-start\"> </a></td><td>Start</td><td>The action relationship is anchored to the start of the related action</td></tr><tr><td>end<a name=\"action-relationship-anchor-end\"> </a></td><td>End</td><td>The action relationship is anchored to the end of the related action</td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/action-relationship-anchor",
+  "identifier": {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.4.642.1.996"
+  },
+  "version": "1.7.0",
+  "name": "PlanActionRelationshipAnchor",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "HL7 (FHIR Project)",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "other",
+          "value": "http://hl7.org/fhir"
+        },
+        {
+          "system": "email",
+          "value": "fhir@lists.hl7.org"
+        }
+      ]
+    }
+  ],
+  "date": "2016-10-21T22:27:16+00:00",
+  "description": "Defines possible anchors for the relationship between actions",
+  "caseSensitive": true,
+  "valueSet": "http://hl7.org/fhir/ValueSet/action-relationship-anchor",
+  "content": "complete",
+  "concept": [
+    {
+      "code": "start",
+      "display": "Start",
+      "definition": "The action relationship is anchored to the start of the related action"
+    },
+    {
+      "code": "end",
+      "display": "End",
+      "definition": "The action relationship is anchored to the end of the related action"
+    }
+  ]
+}
